@@ -1,0 +1,109 @@
+<template name="44c9e3a9">
+  <view class="_view data-v-fe141aac main body">
+    <view class="_view data-v-fe141aac">
+      <swiper class="_swiper data-v-fe141aac hello" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}" indicator-active-color="#EEEEEE" indicator-color="#B3B3B3">
+        <swiper-item wx:key="index" key="{{index}}" wx:for="{{bannerArray}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-fe141aac">
+          <view class="_view data-v-fe141aac Harley_swiper_view">
+            <image src="{{item.bannerImg}}" lazy-load style="width: 100%;height: 100%;" mode="widthFix" data-bannerOpen="{{item.bannerUrl}}" bindtap="handleProxy" data-eventid="{{'MXE-0-'+index}}" data-comkey="{{$k}}" class="_image data-v-fe141aac"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view style="background: white;" class="_view data-v-fe141aac">
+      <view class="_view data-v-fe141aac uni-swiper-msg">
+        <view class="_view data-v-fe141aac uni-swiper-msg-icon">
+          <image src="http://116.62.245.5/wallet-static/index/16@2x.png" lazy-load mode="widthFix" style="width: 176.953rpx;height: 28.125rpx;" class="_image data-v-fe141aac"></image>
+        </view>
+        <swiper autoplay="true" vertical circular="true" interval="3000" class="_swiper data-v-fe141aac">
+          <swiper-item wx:key="index" key="{{index}}" wx:for="{{msg}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-fe141aac">
+            <text class="_text data-v-fe141aac"> {{item.noticeContent}}</text>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+    <view class="_view data-v-fe141aac main_itemList" style="background: white;">
+      <view class="_view data-v-fe141aac main_itemList_Items  " bindtap="handleProxy" data-eventid="{{'KCl-1'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/index/Coins@2x.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">如何赚佣</text>
+      </view>
+      <view class="_view data-v-fe141aac main_itemList_Items  " bindtap="handleProxy" data-eventid="{{'sfc-2'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/index/08@2x.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">推广二维码</text>
+      </view>
+      <view class="_view data-v-fe141aac main_itemList_Items  " bindtap="handleProxy" data-eventid="{{'VHw-3'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/index/09@2x.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">会员</text>
+      </view>
+      <view class="_view data-v-fe141aac main_itemList_Items " bindtap="handleProxy" data-eventid="{{'agn-4'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/index/10.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">发布任务</text>
+      </view>
+      <view class="_view data-v-fe141aac main_itemList_Items  " bindtap="handleProxy" data-eventid="{{'ys4-5'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/index/40@2x.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">任务大厅</text>
+      </view>
+      <view class="_view data-v-fe141aac main_itemList_Items  " bindtap="handleProxy" data-eventid="{{'9ZF-6'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/index/42@2x.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">提交任务</text>
+      </view>
+      <view class="_view data-v-fe141aac main_itemList_Items  ">
+        <image src="http://116.62.245.5/wallet-static/index/41@2x.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">任务记录</text>
+      </view>
+      <view class="_view data-v-fe141aac main_itemList_Items " bindtap="handleProxy" data-eventid="{{'omZ-7'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/index/iconfont-kefushenhe@2x.png" mode="widthFix" lazy-load class="_image data-v-fe141aac"></image>
+        <text class="_text data-v-fe141aac">客服中心</text>
+      </view>
+    </view>
+    <view class="_view data-v-fe141aac Harley_Profit" style="background: white;">
+      <view class="_view data-v-fe141aac top">
+        <image class="_image data-v-fe141aac top_img" src="http://116.62.245.5/wallet-static/index/sysj.png" lazy-load mode="widthFix"></image>
+        <view class="_view data-v-fe141aac top_text">
+          <text class="_text data-v-fe141aac top_texts {{[numIndex == 1 ? 'top_text_bg' : '']}}" bindtap="handleProxy" data-eventid="{{'fhJ-8'}}" data-comkey="{{$k}}">本月</text>
+          <text class="_text data-v-fe141aac top_texts {{[numIndex == 2 ? 'top_text_bg' : '']}}" bindtap="handleProxy" data-eventid="{{'47f-9'}}" data-comkey="{{$k}}">本周</text>
+          <text bindtap="handleProxy" data-eventid="{{'4da-10'}}" data-comkey="{{$k}}" class="_text data-v-fe141aac {{[numIndex == 3 ? 'top_text_bg' : '']}}">昨日</text>
+        </view>
+      </view>
+      <view class="_view data-v-fe141aac">
+        <view class="_view data-v-fe141aac money">
+          <text class="_text data-v-fe141aac money_font">收益总额(元)</text>
+          <view class="_view data-v-fe141aac money_nums">
+            <text class="_text data-v-fe141aac money_num">4246500,73</text>
+          </view>
+        </view>
+        <view style="display: flex;" class="_view data-v-fe141aac">
+          <view class="_view data-v-fe141aac money_bt">
+            <view class="_view data-v-fe141aac money_items">
+              <view class="_view data-v-fe141aac fonts">
+                <text class="_text data-v-fe141aac">任务佣金(元)</text>
+              </view>
+              <view class="_view data-v-fe141aac moneys">
+                <text class="_text data-v-fe141aac">5000.32</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-fe141aac money_bt">
+            <view class="_view data-v-fe141aac money_items">
+              <view class="_view data-v-fe141aac fonts">
+                <text class="_text data-v-fe141aac">任务佣金(元)</text>
+              </view>
+              <view class="_view data-v-fe141aac moneys">
+                <text class="_text data-v-fe141aac">5000.32</text>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-fe141aac money_bt">
+            <view class="_view data-v-fe141aac money_items">
+              <view class="_view data-v-fe141aac fonts">
+                <text class="_text data-v-fe141aac">任务佣金(元)</text>
+              </view>
+              <view class="_view data-v-fe141aac moneys">
+                <text class="_text data-v-fe141aac">5000.32</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

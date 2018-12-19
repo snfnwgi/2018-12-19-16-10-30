@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"body { background: rgb(239,239,239); width: 100vw; height: 100vh; }\n.",[1],"body .",[1],"myTeam_list .",[1],"iconfont { font-weight: 400; font-size: ",[0,63.281],"; }\n.",[1],"body .",[1],"myTeam_list { width: 100vw; height: ",[0,132.421],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; align-items: center; background: #fff; border-bottom: 1px solid rgba(221, 221, 221, 0.27); }\n.",[1],"body .",[1],"myTeam_list .",[1],"left { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"body .",[1],"myTeam_list .",[1],"left .",[1],"teamName { font-size: ",[0,30.468],"; font-family: Adobe Heiti Std R; font-weight: normal; color: rgba(0,0,0,1); text-align: center; font-weight: 700; margin-bottom: ",[0,7.031],"; }\n.",[1],"body .",[1],"myTeam_list .",[1],"left .",[1],"teamLeav { font-size: ",[0,26.953],"; font-family: Adobe Heiti Std R; font-weight: normal; color: rgba(255,255,255,1); background: rgb(245,198,7); padding: ",[0,9.375]," ",[0,23.437],"; display: block; border-radius: 10%; }\n.",[1],"body .",[1],"myTeam_list .",[1],"myTeam_list_font { font-size: ",[0,28.125],"; font-family: SimSun; font-weight: 400; color: rgba(0,0,0,1); }\n.",[1],"body .",[1],"myTeam_list .",[1],"right { margin-right: ",[0,51.562],"; text-align: left; }\n.",[1],"body .",[1],"myTeam_list .",[1],"right .",[1],"iconfont, .",[1],"body .",[1],"myTeam_list .",[1],"right .",[1],"right_time { display: block; text-align: right; margin: 0; }\n.",[1],"body .",[1],"myTeam_list .",[1],"right .",[1],"iconfont { font-size: ",[0,38.671],"; line-height: ",[0,38.671],"; margin: ",[0,14.062]," 0; font-family: Adobe Heiti Std R; font-weight: normal; color: rgba(204,204,204,1); }\n.",[1],"body .",[1],"myTeam_list .",[1],"right .",[1],"right_time { font-size: ",[0,23.437],"; font-family: Adobe Heiti Std R; font-weight: normal; color: rgba(204,204,204,1); }\n",],undefined,{path:"./pages/teamInfo/teamInfo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/teamInfo/teamInfo.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

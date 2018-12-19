@@ -1,0 +1,25 @@
+@import "../../common/vendor.wxss";
+
+.content.data-v-6165feb6 {
+  width: 750rpx;
+  height: scale(56vh);
+  background-image: url("http://116.62.245.5/wallet-static/login/loginbj.png");
+  background-size: 100% 100%;
+}
+.content .login_logo.data-v-6165feb6 {
+  width: 530.859rpx;
+  margin: 66.796rpx 108.984rpx;
+}
+.content .login_bottom.data-v-6165feb6 {
+  font-size: 23.437rpx;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: #e93a26;
+  line-height: 29.296rpx;
+}
+.content .login_bottom .login.data-v-6165feb6 {
+  margin: 0 22.265rpx 0 282.421rpx;
+}
+.content .login_bottom .forgot.data-v-6165feb6 {
+  margin-left: 22.265rpx;
+}

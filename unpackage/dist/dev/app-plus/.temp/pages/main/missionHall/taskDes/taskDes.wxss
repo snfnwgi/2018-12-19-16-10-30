@@ -1,0 +1,50 @@
+@import "../../../../common/vendor.wxss";
+
+.task_font {
+  width: 703.125rpx;
+  margin: 35.156rpx auto;
+}
+.task_font .title {
+  font-size: 32.812rpx;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  color: rgba(104,99,99,1);
+  text-align: center;
+}
+.task_font .des {
+  font-size: 18.75rpx;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  color: rgba(178,176,176,1);
+  text-align: center;
+  margin-top: 15.234rpx;
+}
+.task_font .info {
+  font-size: 28.125rpx;
+  font-family: MicrosoftYaHeiLight;
+  font-weight: 300;
+  color: rgba(104,99,99,1);
+  width: 703.125rpx;
+  margin: 0 auto;
+}
+.task_font .info image {
+  width: 100%;
+}
+.task_font .info ._textarea {
+  width: 618.75rpx;
+  margin: 58.593rpx 41.015rpx;
+  line-height: 1.4;
+}
+.tag-read {
+  margin-bottom: 99.609rpx;
+}
+.taskDes ._button {
+  width: 664.453rpx;
+  height: 86.718rpx;
+  margin: 0 auto;
+  line-height: 86.718rpx;
+  font-size: 35.156rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: rgba(228,246,242,1);
+}

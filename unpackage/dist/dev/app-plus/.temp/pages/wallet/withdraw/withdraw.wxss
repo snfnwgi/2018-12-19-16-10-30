@@ -1,0 +1,8 @@
+@import "../../../common/vendor.wxss";
+
+.transfer .body.data-v-c09cf032 {
+  height: 584.765rpx;
+}
+.transfer_tip text.data-v-c09cf032 {
+  color: #C6C2C2;
+}

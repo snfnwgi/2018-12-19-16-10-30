@@ -1,0 +1,65 @@
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<template name="7f4dd04d">
+  <view id="bind" class="_view data-v-1b8d0815 body">
+    <view class="_view data-v-1b8d0815 personInformation_list">
+      <view class="_view data-v-1b8d0815 info">
+        <text class="_text data-v-1b8d0815">持卡人姓名:</text>
+      </view>
+      <view class="_view data-v-1b8d0815 info_Input">
+        <input type="text" value="{{userName}}" bindinput="handleProxy" data-eventid="{{'vky-0'}}" data-comkey="{{$k}}" class="_input data-v-1b8d0815" />
+      </view>
+    </view>
+    <view class="_view data-v-1b8d0815 personInformation_lists">
+      <view class="_view data-v-1b8d0815 left">
+        <view class="_view data-v-1b8d0815 info">
+          <text class="_text data-v-1b8d0815">银行卡名称:</text>
+        </view>
+        <view class="_view data-v-1b8d0815 info_Input" bindtap="handleProxy" data-eventid="{{'DXd-2'}}" data-comkey="{{$k}}">
+          <input type="text" value="{{pickerText}}" bindinput="handleProxy" disabled="true" data-eventid="{{'mTC-1'}}" data-comkey="{{$k}}" class="_input data-v-1b8d0815" />
+        </view>
+      </view>
+      <view class="_view data-v-1b8d0815 right">
+        <image src="http://116.62.245.5/wallet-static/center/more.png" mode="widthFix" class="_image data-v-1b8d0815"></image>
+      </view>
+    </view>
+    <view class="_view data-v-1b8d0815 personInformation_list">
+      <view class="_view data-v-1b8d0815 info">
+        <text class="_text data-v-1b8d0815">银行卡号:</text>
+      </view>
+      <view class="_view data-v-1b8d0815 info_Input">
+        <input type="text" value="11111111" class="_input data-v-1b8d0815" />
+      </view>
+    </view>
+    <view class="_view data-v-1b8d0815 personInformation_lists">
+      <view class="_view data-v-1b8d0815 left">
+        <view class="_view data-v-1b8d0815 info">
+          <text class="_text data-v-1b8d0815">手机号码:</text>
+        </view>
+        <view class="_view data-v-1b8d0815 info_Input">
+          <input type="text" value="{{pickerText}}" bindinput="handleProxy" data-eventid="{{'f6r-3'}}" data-comkey="{{$k}}" class="_input data-v-1b8d0815" />
+        </view>
+      </view>
+      <view class="_view data-v-1b8d0815 right">
+        <text style="position: absolute;" class="_text data-v-1b8d0815">获取</text>
+      </view>
+    </view>
+    <view class="_view data-v-1b8d0815 personInformation_list">
+      <view class="_view data-v-1b8d0815 info">
+        <text class="_text data-v-1b8d0815">验证码:</text>
+      </view>
+      <view class="_view data-v-1b8d0815 info_Input">
+        <input type="text" value="xxx小区" class="_input data-v-1b8d0815" />
+      </view>
+    </view>
+    <view class="_view data-v-1b8d0815">
+      <view class="_view data-v-1b8d0815 infos">
+        <text class="_text data-v-1b8d0815 tips">*</text>
+        <text class="_text data-v-1b8d0815">请先选择银行卡名称，再输入相应的银行卡号</text>
+      </view>
+    </view>
+    <view class="_view data-v-1b8d0815 gerenSubmit">
+      <text class="_text data-v-1b8d0815">确定</text>
+    </view>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'0sT-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'HWQ-0'],$root}}" is="1ab3c772"></template>
+  </view>
+</template>

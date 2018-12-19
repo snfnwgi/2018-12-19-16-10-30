@@ -1,0 +1,24 @@
+<template name="7b54d368">
+  <view class="_div data-v-58771b94 mpvue-picker">
+    <view bindtap="handleProxy" catchtouchmove="true" data-eventid="{{'bsv-0'}}" data-comkey="{{$k}}" class="_div data-v-58771b94 {{[showPicker ? 'pickerMask' : '']}}"></view>
+    <view class="_div data-v-58771b94 mpvue-picker-content  {{[showPicker ? 'mpvue-picker-view-show' : '']}}">
+      <view class="_div data-v-58771b94 mpvue-picker__hd" catchtouchmove="true">
+        <view class="_div data-v-58771b94 mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'0UA-1'}}" data-comkey="{{$k}}">取消</view>
+        <view class="_div data-v-58771b94 mpvue-picker__action" bindtap="handleProxy" data-eventid="{{'GNH-2'}}" data-comkey="{{$k}}" style=" {{('color:' + themeColor + ';')}}">确定</view>
+      </view>
+      <picker-view indicator-style="height: 40px;" class="_picker-view data-v-58771b94 mpvue-picker-view" value="{{pickerValue}}" bindchange="handleProxy" data-eventid="{{'9vF-3'}}" data-comkey="{{$k}}">
+        <block>
+          <picker-view-column class="_picker-view-column data-v-58771b94">
+            <view class="_div data-v-58771b94 picker-item" wx:key="index" key="{{index}}" wx:for="{{provinceDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
+          </picker-view-column>
+          <picker-view-column class="_picker-view-column data-v-58771b94">
+            <view class="_div data-v-58771b94 picker-item" wx:key="index" key="{{index}}" wx:for="{{cityDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
+          </picker-view-column>
+          <picker-view-column class="_picker-view-column data-v-58771b94">
+            <view class="_div data-v-58771b94 picker-item" wx:key="index" key="{{index}}" wx:for="{{areaDataList}}" wx:for-index="index" wx:for-item="item">{{item.label}}</view>
+          </picker-view-column>
+        </block>
+      </picker-view>
+    </view>
+  </view>
+</template>

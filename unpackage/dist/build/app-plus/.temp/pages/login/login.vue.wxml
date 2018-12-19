@@ -1,0 +1,28 @@
+<template name="35e46ca3">
+  <view class="_view data-v-529348de content">
+    <image src="http://116.62.245.5/wallet-static/login/loginlogo.png" mode="widthFix" class="_image data-v-529348de login_logo"></image>
+    <view class="_view data-v-529348de register_input">
+      <view class="_view data-v-529348de register_input_body">
+        <text class="_text data-v-529348de">
+          <text class="_text data-v-529348de iconfont"></text>
+        </text>
+        <input style="color: rgba(233, 58, 38, 1);" type="number" class="_input data-v-529348de inputStyle" value="{{userPhone}}" bindinput="handleProxy" placeholder="请输入手机号码" bindblur="handleProxy" data-eventid="{{'UbN-0'}}" data-comkey="{{$k}}" />
+      </view>
+    </view>
+    <view class="_view data-v-529348de register_input">
+      <view class="_view data-v-529348de register_input_body">
+        <text class="_text data-v-529348de">
+          <text class="_text data-v-529348de iconfont"></text>
+        </text>
+        <input style="color: rgba(233, 58, 38, 1);" type="password" class="_input data-v-529348de inputStyle" value="{{userPWD}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'Xez-1'}}" data-comkey="{{$k}}" />
+      </view>
+    </view>
+    <view class="_view data-v-529348de register_input" style="background: #E93A26;text-align: center;">
+      <button type="warn" class="_button data-v-529348de register" bindtap="handleProxy" data-eventid="{{'21D-2'}}" data-comkey="{{$k}}">登   录</button>
+    </view>
+    <view class="_view data-v-529348de login_bottom">
+      <text class="_text data-v-529348de login" bindtap="handleProxy" data-eventid="{{'dim-3'}}" data-comkey="{{$k}}">注册</text>
+      <text class="_text data-v-529348de forgot" bindtap="handleProxy" data-eventid="{{'gjD-4'}}" data-comkey="{{$k}}">忘记密码</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,32 @@
+@import "../../../common/vendor.wxss";
+
+.top image {
+  width: 159.375rpx;
+  height: 148.828rpx;
+  margin: 99.609rpx 294.14rpx;
+}
+.tops .kefu_items,
+.bottom .kefu_items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin: 0 11.718rpx 0 23.437rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 23.437rpx 0;
+  border-bottom: 1.171rpx solid rgba(221, 221, 221, 0.27);
+}
+.kefu_items text {
+  font-size: 29.296rpx;
+}
+.kefu_items image {
+  width: 35rpx;
+  height: 35rpx;
+}
+.kefu_body .bottom {
+  margin-top: 58.593rpx;
+}

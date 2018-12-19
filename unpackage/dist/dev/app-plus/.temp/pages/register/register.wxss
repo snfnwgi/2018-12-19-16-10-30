@@ -1,0 +1,8 @@
+@import "../../common/vendor.wxss";
+
+.content.data-v-0164db1e {
+  width: 750rpx;
+  height: scale(56vh);
+  background-image: url("http://116.62.245.5/wallet-static/login/login_bj.png");
+  background-size: 100% 100%;
+}

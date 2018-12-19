@@ -1,0 +1,42 @@
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<template name="19aa7b2e">
+  <view class="_view data-v-1ae83b4c missionHall">
+    <view class="_view data-v-1ae83b4c miss_topbar">
+      <view class="_view data-v-1ae83b4c list" bindtap="handleProxy" data-eventid="{{'IiK-0'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-1ae83b4c">
+          <text class="_text data-v-1ae83b4c">时间</text>
+          <image src="../../../static/index/xia.png" class="_image data-v-1ae83b4c"></image>
+        </view>
+      </view>
+      <view class="_view data-v-1ae83b4c list" bindtap="handleProxy" data-eventid="{{'dmH-1'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-1ae83b4c">
+          <text class="_text data-v-1ae83b4c">分类</text>
+          <image src="../../../static/index/xia.png" class="_image data-v-1ae83b4c"></image>
+        </view>
+      </view>
+      <view class="_view data-v-1ae83b4c list" bindtap="handleProxy" data-eventid="{{'8Io-2'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-1ae83b4c">
+          <text class="_text data-v-1ae83b4c">价格</text>
+          <image src="../../../static/index/xia.png" class="_image data-v-1ae83b4c"></image>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-1ae83b4c miss_content">
+      <view class="_view data-v-1ae83b4c miss_content_items" bindtap="handleProxy" data-eventid="{{'DYQ-3'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-1ae83b4c logo">
+          <image src="../../../static/center/cw.png" mode class="_image data-v-1ae83b4c"></image>
+        </view>
+        <view class="_view data-v-1ae83b4c title_des">
+          <text class="_text data-v-1ae83b4c">普通VIP任务(阿胶)</text>
+          <text style="color: #999999;" class="_text data-v-1ae83b4c">未领取(还剩:10个)</text>
+        </view>
+        <view class="_view data-v-1ae83b4c items_price">
+          <text class="_text data-v-1ae83b4c">￥4元</text>
+          <text style="color: #999999;" class="_text data-v-1ae83b4c">2018-11-22</text>
+        </view>
+        <image class="_image data-v-1ae83b4c mores" src="../../../static/center/more.png" mode></image>
+      </view>
+    </view>
+    <template ref="mpvuePicker" bindonConfirm="handleProxy" bindonCancel="handleProxy" data-eventid="{{'hTh-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'UUM-0'],$root}}" is="3bcf33f8"></template>
+  </view>
+</template>

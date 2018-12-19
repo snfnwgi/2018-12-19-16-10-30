@@ -1,0 +1,1 @@
+<import src="/pages/wallet/withdraw/withdraw.vue.wxml" /><template is="18b7b322" data="{{ ...$root['0'], $root }}"/>

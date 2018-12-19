@@ -1,0 +1,22 @@
+<template name="69070bb0">
+  <view class="_view data-v-fb6f7622 promotion" style="background: #FEE1B9;">
+    <image src="../../../static/index/tuiguang/banner@2x.png" mode="widthFix" class="_image data-v-fb6f7622"></image>
+    <view class="_view data-v-fb6f7622 promotion_register">
+      <image src="../../../static/index/tuiguang/bpsccode@2x.png" mode="widthFix" class="_image data-v-fb6f7622"></image>
+    </view>
+    <view class="_view data-v-fb6f7622 promotion_btn">
+      <text class="_text data-v-fb6f7622">复制邀请链接地址</text>
+    </view>
+    <view class="_view data-v-fb6f7622 promotion_friends">
+      <image src="../../../static/index/tuiguang/20@2x.png" mode="widthFix" class="_image data-v-fb6f7622"></image>
+    </view>
+    <view class="_view data-v-fb6f7622 promotions">
+      <view wx:key="index" key="{{index}}" wx:for="{{promotions}}" wx:for-index="index" wx:for-item="item" class="_view data-v-fb6f7622">
+        <text class="_text data-v-fb6f7622">{{item}}</text>
+      </view>
+    </view>
+    <view class="_view data-v-fb6f7622 promotion_bottom" bindtap="handleProxy" data-eventid="{{'TBE-0'}}" data-comkey="{{$k}}">
+      <image src="../../../static/index/tuiguang/btn.png" mode="widthFix" class="_image data-v-fb6f7622"></image>
+    </view>
+  </view>
+</template>

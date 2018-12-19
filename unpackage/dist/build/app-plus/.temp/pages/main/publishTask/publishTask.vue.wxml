@@ -1,0 +1,39 @@
+<template name="79442768">
+  <view class="_view data-v-c7815910 task">
+    <view class="_view data-v-c7815910">
+      <view class="_view data-v-c7815910 title">
+        <text class="_text data-v-c7815910">标题</text>
+        <input type="text" value="{{title}}" bindinput="handleProxy" placeholder="请输入任务标题" data-eventid="{{'m3W-0'}}" data-comkey="{{$k}}" class="_input data-v-c7815910" />
+      </view>
+      <view class="_view data-v-c7815910 task_content">
+        <textarea value="{{content}}" bindinput="handleProxy" placeholder="请输入任务内容" data-eventid="{{'2pj-1'}}" data-comkey="{{$k}}" class="_textarea data-v-c7815910" />
+      </view>
+      <view class="_view data-v-c7815910 task_upload">
+        <view class="_view data-v-c7815910 upload" wx:if="{{uploadShow}}">
+          <image src="../../../static/index/upload.png" bindtap="handleProxy" data-eventid="{{'yWD-2'}}" data-comkey="{{$k}}" class="_image data-v-c7815910"></image>
+        </view>
+        <view class="_view data-v-c7815910 upload_show">
+          <image src="{{src1}}" class="_image data-v-c7815910"></image>
+          <image src="{{src2}}" class="_image data-v-c7815910"></image>
+          <image src="{{src3}}" class="_image data-v-c7815910"></image>
+        </view>
+      </view>
+      <view class="_view data-v-c7815910 taskTip">
+        <text class="_text data-v-c7815910">*温馨提示：图片比例最好为4:3,5:3,16:9</text>
+      </view>
+      <view class="_view data-v-c7815910 titles">
+        <text class="_text data-v-c7815910">单笔广告费</text>
+        <input type="text" value="{{gPrice}}" bindinput="handleProxy" placeholder="请输入任务标题" data-eventid="{{'Dj8-3'}}" data-comkey="{{$k}}" class="_input data-v-c7815910" />
+      </view>
+      <view class="_view data-v-c7815910 titles">
+        <text class="_text data-v-c7815910">发布数量</text>
+        <input type="text" value="{{num}}" bindinput="handleProxy" placeholder="请输入任务标题" data-eventid="{{'xOL-4'}}" data-comkey="{{$k}}" class="_input data-v-c7815910" />
+      </view>
+      <view class="_view data-v-c7815910 titles">
+        <text class="_text data-v-c7815910">广告总价</text>
+        <input type="text" value="{{price}}" bindinput="handleProxy" placeholder="请输入任务标题" data-eventid="{{'na5-5'}}" data-comkey="{{$k}}" class="_input data-v-c7815910" />
+      </view>
+    </view>
+    <button type="primary" disabled="true" class="_button data-v-c7815910">确认发布</button>
+  </view>
+</template>

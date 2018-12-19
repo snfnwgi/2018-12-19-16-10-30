@@ -1,0 +1,97 @@
+@import "../../common/vendor.wxss";
+
+.body .center_logo {
+  width: 100vw;
+  height: 304.687rpx;
+  background: #E93A26;
+  background: -webkit-linear-gradient(bottom right, #eb6117, #e71d2f);
+  background: linear-gradient(to top left, #eb6117, #e71d2f);
+  padding-top: 45.703rpx;
+}
+.body .center_logo .logo {
+  width: 219.14rpx;
+  margin: 0 auto;
+  text-align: center;
+}
+.body .center_logo .logo image {
+  width: 100%;
+  height: 228.515rpx;
+}
+.body .center_logo .logo text {
+  font-size: 38.671rpx;
+  line-height: 38.671rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+.center_money {
+  margin-bottom: 23.437rpx;
+  height: 145.312rpx;
+  width: 100vw;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.27);
+}
+.center_money .box {
+  width: 33.333%;
+  padding-top: 29.296rpx;
+  box-sizing: border-box;
+}
+.center_money .box view {
+  text-align: center;
+}
+.center_money .box .top text {
+  margin-top: 29.296rpx;
+  font-size: 29.296rpx;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+  color: rgba(241, 45, 56, 1);
+}
+.center_money .box .next text {
+  font-size: 24.609rpx;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: rgba(51, 51, 51, 1);
+}
+.body .center_list .center_list_item {
+  height: 92.578rpx;
+  width: 100vw;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.27);
+}
+.body .center_list .center_list_item .listIco {
+  width: 52.734rpx;
+  height: 52.734rpx;
+  margin: 19.921rpx 29.296rpx 19.921rpx 44.531rpx;
+}
+.body .center_list .center_list_item .listIco image {
+  width: 100%;
+  height: 100%;
+}
+.body .center_list .center_list_item .listFont {
+  font-size: 25.781rpx;
+  line-height: 92.578rpx;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: rgba(34, 36, 35, 1);
+}
+.listIconfont {
+  width: 14.062rpx;
+  margin: 14.062rpx 26.953rpx 31.64rpx 0;
+  color: #999;
+}
+.listIconfont image {
+  width: 100%;
+  height: 26.953rpx;
+}
+.center_margin {
+  margin-top: 21.093rpx;
+}

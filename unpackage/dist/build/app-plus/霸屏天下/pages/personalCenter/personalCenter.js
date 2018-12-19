@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"body{background:#efefef;width:100vw;height:scale(100vh-44px);height:100vh}\n.",[1],"body .",[1],"center_logo{width:100vw;height:",[0,304.687],";background:#e93a26;background:-webkit-linear-gradient(bottom right,#eb6117,#e71d2f);background:linear-gradient(to top left,#eb6117,#e71d2f);padding-top:",[0,45.703],"}\n.",[1],"body .",[1],"center_logo .",[1],"logo{width:",[0,219.14],";margin:0 auto;text-align:center}\n.",[1],"body .",[1],"center_logo .",[1],"logo wx-image{width:100%;height:",[0,228.515],"}\n.",[1],"body .",[1],"center_logo .",[1],"logo wx-text{font-size:",[0,38.671],";line-height:",[0,38.671],";font-family:SimSun;font-weight:400;color:#fff}\n.",[1],"center_money{height:",[0,145.312],";width:100vw;background:#fff;display:-webkit-box;display:-webkit-flex;display:flex}\n.",[1],"center_money .",[1],"box{width:33.333%;padding-top:",[0,29.296],";box-sizing:border-box}\n.",[1],"center_money .",[1],"box wx-view{text-align:center}\n.",[1],"center_money .",[1],"box .",[1],"top wx-text{margin-top:",[0,29.296],";font-size:",[0,29.296],";font-family:MicrosoftYaHei;font-weight:400;color:#f12d38}\n.",[1],"center_money .",[1],"box .",[1],"next wx-text{font-size:",[0,24.609],";font-family:Adobe Heiti Std R;font-weight:400;color:#333}\n.",[1],"body .",[1],"center_list .",[1],"center_list_item{height:",[0,92.578],";width:100vw;background:#fff;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between}\n.",[1],"body .",[1],"center_list .",[1],"center_list_item .",[1],"listIco{width:",[0,52.734],";height:",[0,52.734],";margin:",[0,19.921]," ",[0,29.296]," ",[0,19.921]," ",[0,44.531],"}\n.",[1],"body .",[1],"center_list .",[1],"center_list_item .",[1],"listIco wx-image{width:100%;height:100%}\n.",[1],"body .",[1],"center_list .",[1],"center_list_item .",[1],"listFont{font-size:",[0,25.781],";line-height:",[0,92.578],";font-family:Adobe Heiti Std R;font-weight:400;color:#222423}\n.",[1],"listIconfont{width:",[0,14.062],";margin:",[0,14.062]," ",[0,26.953]," ",[0,31.64]," 0;color:#999}\n.",[1],"listIconfont wx-image{width:100%;height:",[0,26.953],"}\n.",[1],"center_margin{margin-top:",[0,21.093],"}\n",],undefined,{path:"./pages/personalCenter/personalCenter.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/personalCenter/personalCenter.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

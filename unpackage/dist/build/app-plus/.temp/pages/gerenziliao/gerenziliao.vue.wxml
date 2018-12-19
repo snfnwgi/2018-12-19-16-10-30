@@ -1,0 +1,55 @@
+<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
+<template name="dba5a782">
+  <view class="_view data-v-aafb548c">
+    <view class="_view data-v-aafb548c personInformation_list">
+      <view class="_view data-v-aafb548c info">
+        <text class="_text data-v-aafb548c">真实姓名:</text>
+      </view>
+      <view class="_view data-v-aafb548c info_Input">
+        <input type="text" value="测试用户" class="_input data-v-aafb548c" />
+      </view>
+    </view>
+    <view class="_view data-v-aafb548c personInformation_list">
+      <view class="_view data-v-aafb548c info">
+        <text class="_text data-v-aafb548c">手机号码:</text>
+      </view>
+      <view class="_view data-v-aafb548c info_Input">
+        <input type="text" value="11111111" class="_input data-v-aafb548c" />
+      </view>
+    </view>
+    <view class="_view data-v-aafb548c personInformation_list">
+      <view class="_view data-v-aafb548c info">
+        <text class="_text data-v-aafb548c">所属区域:</text>
+      </view>
+      <view class="_view data-v-aafb548c info_Input">
+        <input type="text" disabled bindtap="handleProxy" value="{{pickerText}}" bindinput="handleProxy" data-eventid="{{'Wr8-0'}}" data-comkey="{{$k}}" class="_input data-v-aafb548c" />
+      </view>
+    </view>
+    <view class="_view data-v-aafb548c personInformation_list">
+      <view class="_view data-v-aafb548c info">
+        <text class="_text data-v-aafb548c">详细地址:</text>
+      </view>
+      <view class="_view data-v-aafb548c info_Input">
+        <input type="text" value="xxx小区" class="_input data-v-aafb548c" />
+      </view>
+    </view>
+    <view class="_view data-v-aafb548c personInformation_list">
+      <view class="_view data-v-aafb548c info">
+        <text class="_text data-v-aafb548c">注册码:</text>
+      </view>
+      <view class="_view data-v-aafb548c info_Input">
+        <input type="text" value="11111111" class="_input data-v-aafb548c" />
+      </view>
+    </view>
+    <view class="_view data-v-aafb548c">
+      <view class="_view data-v-aafb548c infos">
+        <text class="_text data-v-aafb548c tips">*</text>
+        <text class="_text data-v-aafb548c">资料一旦提交无法修改,请谨慎提交</text>
+      </view>
+    </view>
+    <view class="_view data-v-aafb548c gerenSubmit">
+      <text class="_text data-v-aafb548c">确定</text>
+    </view>
+    <template ref="mpvueCityPicker" bindonCancel="handleProxy" bindonConfirm="handleProxy" data-eventid="{{'fZD-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'xjp-0'],$root}}" is="67d34c24"></template>
+  </view>
+</template>

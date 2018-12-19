@@ -1,0 +1,429 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        //                 		{
+        //                 			"path" : "pages/login/login",
+        //                 			"style" : {
+        //                 				"navigationBarTitleText" : "登陆",
+        //                 				"backgroundColor" : "#E93A26",
+        //                 				"backgroundColorTop" : "#E93A26"
+        //                 			}
+        //                 		},
+        {
+            "path" : "pages/main/main",
+            "style" : {
+                "navigationStyle" : "custom",
+                "navigationBarTitleText" : "首页",
+                "backgroundColor" : "transparent",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/register/register",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "注册",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/forget/forget",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "找回密码",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/myTeam/myTeam",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "我的团队",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/personalCenter/personalCenter",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "个人中心",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "transparent"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/teamInfo/teamInfo",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "我的团队",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/gerenziliao/gerenziliao",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "个人资料",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/bindingBank/bindingBank",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "银行卡信息",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/wallet",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/transfer/transfer",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "转入",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/withdraw/withdraw",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "提现",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/makeMoney/makeMoney",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "如何赚佣",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/promotion/promotion",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "推广二维码",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/vip/vip",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "会员",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/publishTask/publishTask",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "发布任务",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/missionHall/missionHall",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "任务大厅",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/missionHall/taskDes/taskDes",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "任务详情",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/kefuCenter/kefuCenter",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "客服中心",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/chongzhiMX/chongzhiMX",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "充值明细",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/shouyiMX/shouyiMX",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "收益明细",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/yongjinMX/yongjinMX",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "佣金明细",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/tixianJL/tixianJL",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "提现记录",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/wallet/tuiguangMX/tuiguangMX",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "推广明细",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/submitTask/submitTask",
+            "style" : {
+                "navigationStyle" : "default",
+                "navigationBarTitleText" : "任务提交",
+                "backgroundColor" : "#E93A26",
+                "backgroundColorTop" : "#E93A26",
+                "navigationBarBackgroundColor" : "#E93A26",
+                "app-plus" : {
+                    "titleNView" : {
+                        "type" : "default"
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/main/openWebView/openWebView",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationStyle" : "default",
+        "backgroundColor" : "#E93A26",
+        "backgroundColorTop" : "#E93A26",
+        "navigationBarBackgroundColor" : "#E93A26"
+    },
+    "tabBar" : {
+        "color" : "#7A7E83",
+        "selectedColor" : "#F74C20",
+        "borderStyle" : "white",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/main/main",
+                "selectedIconPath" : "static/tabbar/index2.png",
+                "iconPath" : "static/tabbar/index.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/myTeam/myTeam",
+                "selectedIconPath" : "static/tabbar/team2.png",
+                "iconPath" : "static/tabbar/team.png",
+                "text" : "我的团队"
+            },
+            {
+                "pagePath" : "pages/personalCenter/personalCenter",
+                "selectedIconPath" : "static/tabbar/user2.png",
+                "iconPath" : "static/tabbar/user.png",
+                "text" : "个人中心"
+            }
+        ]
+    },
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}

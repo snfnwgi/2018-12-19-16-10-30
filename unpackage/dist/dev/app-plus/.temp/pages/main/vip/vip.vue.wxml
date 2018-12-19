@@ -1,0 +1,44 @@
+<template name="1415bc38">
+  <view class="_view data-v-e493b83a">
+    <view class="_view data-v-e493b83a vip_body">
+      <image src="../../../static/index/126.png" mode="widthFix" class="_image data-v-e493b83a"></image>
+      <view class="_view data-v-e493b83a vip_tip">
+        <text class="_text data-v-e493b83a">挖掘朋友圈上面的财富，开启躺赚人生</text>
+      </view>
+      <view class="_view data-v-e493b83a vip_allItems">
+        <view class="_view data-v-e493b83a vip_items">
+          <text class="_text data-v-e493b83a">普通vip</text>
+          <view class="_view data-v-e493b83a vip_info">
+            <view class="_view data-v-e493b83a vip_info_title">
+              <text class="_text data-v-e493b83a">特权</text>
+            </view>
+            <view class="_view data-v-e493b83a vip_info_des">
+              <text class="_text data-v-e493b83a">任务奖励+5%</text>
+              <text class="_text data-v-e493b83a">任务奖励+5%</text>
+              <text style="margin-bottom: 0;" class="_text data-v-e493b83a">任务奖励+5%</text>
+            </view>
+          </view>
+          <view class="_view data-v-e493b83a KT_vip">
+            <text class="_text data-v-e493b83a">立即开通</text>
+          </view>
+        </view>
+        <view class="_view data-v-e493b83a vip_items">
+          <text class="_text data-v-e493b83a">高级vip</text>
+          <view class="_view data-v-e493b83a vip_info">
+            <view class="_view data-v-e493b83a vip_info_title">
+              <text class="_text data-v-e493b83a">特权</text>
+            </view>
+            <view class="_view data-v-e493b83a vip_info_des">
+              <text class="_text data-v-e493b83a">任务奖励+5%</text>
+              <text class="_text data-v-e493b83a">任务奖励+5%</text>
+              <text style="margin-bottom: 0;" class="_text data-v-e493b83a">任务奖励+5%</text>
+            </view>
+          </view>
+          <view class="_view data-v-e493b83a KT_vip">
+            <text class="_text data-v-e493b83a">立即开通</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

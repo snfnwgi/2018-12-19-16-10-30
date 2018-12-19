@@ -1,0 +1,16 @@
+<template name="4c0d23fc">
+  <view class="_view data-v-550bb107">
+    <view class="_view data-v-550bb107 chongzhi_body">
+      <view class="_view data-v-550bb107 chongzhi_items">
+        <view class="_view data-v-550bb107 chongzhi_left">
+          <text class="_text data-v-550bb107">收益</text>
+          <text class="_text data-v-550bb107">余额:192.00</text>
+        </view>
+        <view class="_view data-v-550bb107 chongzhi_right">
+          <text class="_text data-v-550bb107">2018-11-28</text>
+          <text class="_text data-v-550bb107">+8.00</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

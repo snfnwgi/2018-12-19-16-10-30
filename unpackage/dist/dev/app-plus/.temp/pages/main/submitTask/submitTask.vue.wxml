@@ -1,0 +1,30 @@
+<template name="f4dad87c">
+  <view class="_view data-v-2e7ccc07 submitTask">
+    <view class="_view data-v-2e7ccc07">
+      <view class="_view data-v-2e7ccc07 header">
+        <text class="_text data-v-2e7ccc07">普通任务(阿胶)</text>
+        <view class="_view data-v-2e7ccc07 content">
+          <textarea value="" placeholder="请输入提交任务时备注内容" class="_textarea data-v-2e7ccc07" />
+        </view>
+        <view class="_view data-v-2e7ccc07 task_upload">
+          <view class="_view data-v-2e7ccc07 upload" wx:if="{{uploadShow}}">
+            <image src="../../../static/index/upload.png" bindtap="handleProxy" data-eventid="{{'2mP-0'}}" data-comkey="{{$k}}" class="_image data-v-2e7ccc07"></image>
+          </view>
+          <view class="_view data-v-2e7ccc07 upload_show">
+            <image src="{{src1}}" class="_image data-v-2e7ccc07"></image>
+            <image src="{{src2}}" class="_image data-v-2e7ccc07"></image>
+            <image src="{{src3}}" class="_image data-v-2e7ccc07"></image>
+          </view>
+        </view>
+        <view class="_view data-v-2e7ccc07 taskTip">
+          <text class="_text data-v-2e7ccc07">*温馨提示：图片比例最好为4:3,5:3,16:9</text>
+        </view>
+        <button type="primary" class="_button data-v-2e7ccc07">确认提交</button>
+        <view class="_view data-v-2e7ccc07 bottom">
+          <text class="_text data-v-2e7ccc07 imgTip">提交的内容格式如下:</text>
+          <image src="../../../static/index/des.png" mode="widthFix" class="_image data-v-2e7ccc07"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

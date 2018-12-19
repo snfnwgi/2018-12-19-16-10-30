@@ -1,0 +1,33 @@
+<template name="09e80522">
+  <view class="_view data-v-9a5b8532 kefuCenter">
+    <view class="_view data-v-9a5b8532 top">
+      <image src="../../../static/center/51@2x.png" class="_image data-v-9a5b8532"></image>
+    </view>
+    <view class="_view data-v-9a5b8532 kefu_body">
+      <view class="_view data-v-9a5b8532 tops">
+        <view class="_view data-v-9a5b8532 kefu_items">
+          <text class="_text data-v-9a5b8532">会员客服</text>
+          <image src="../../../static/center/message.png" class="_image data-v-9a5b8532"></image>
+        </view>
+        <view class="_view data-v-9a5b8532 kefu_items">
+          <text class="_text data-v-9a5b8532">广告投放客服</text>
+          <image src="../../../static/center/message.png" class="_image data-v-9a5b8532"></image>
+        </view>
+        <view class="_view data-v-9a5b8532 kefu_items">
+          <text class="_text data-v-9a5b8532">投诉客服</text>
+          <image src="../../../static/center/message.png" class="_image data-v-9a5b8532"></image>
+        </view>
+      </view>
+      <view class="_view data-v-9a5b8532 bottom">
+        <view class="_view data-v-9a5b8532 kefu_items">
+          <text class="_text data-v-9a5b8532">客服工作时间</text>
+          <text style="color: #626262;" class="_text data-v-9a5b8532">9:00-11:30;12:30-20:00</text>
+        </view>
+        <view class="_view data-v-9a5b8532 kefu_items">
+          <text class="_text data-v-9a5b8532">咨询热线时间</text>
+          <text style="color: #626262;" class="_text data-v-9a5b8532">9:00-11:30;12:30-20:00</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

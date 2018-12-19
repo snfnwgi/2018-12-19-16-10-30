@@ -1,0 +1,5 @@
+<template name="d557317c">
+  <view class="_view data-v-6e35ce6e">
+    <web-view src="{{openUrl}}" class="_web-view data-v-6e35ce6e"></web-view>
+  </view>
+</template>

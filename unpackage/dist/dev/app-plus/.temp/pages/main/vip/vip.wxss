@@ -1,0 +1,73 @@
+@import "../../../common/vendor.wxss";
+
+.vip_body {
+  width: 750rpx;
+  height: 1228.125rpx;
+  background: url('http://116.62.245.5/wallet-static/index/124.png');
+  background-size: 100% 100%;
+  text-align: center;
+}
+.vip_body>image {
+  width: 450rpx;
+  height: 84.375rpx;
+  margin-top: 80.859rpx;
+}
+.vip_tip {
+  font-size: 28.125rpx;
+  font-family: MicrosoftYaHei-Bold;
+  font-weight: bold;
+  color: rgba(82, 55, 9, 1);
+}
+.vip_allItems {
+  margin-top: 198.046rpx;
+}
+.vip_items {
+  width: 650.39rpx;
+  height: 315.234rpx;
+  margin: 0 auto;
+  background: url(http://116.62.245.5/wallet-static/index/125.png);
+  background-size: 100% 100%;
+  margin-top: 69.14rpx;
+}
+.vip_items>text {
+  font-size: 35.156rpx;
+  font-family: FZFYSJW--GB1-0;
+  font-weight: 400;
+  color: rgba(170,39,33,1);
+}
+.vip_info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 24.609rpx;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: rgba(103,103,103,1);
+  margin: 0;
+  padding: 0;
+}
+.vip_info .vip_info_title {
+  width: 25.781rpx;
+  height: 73.828rpx;
+  margin: 57.421rpx 93.75rpx 35.156rpx 93.75rpx;
+  -webkit-writing-mode: lr-tb;
+  writing-mode: lr-tb;
+}
+.vip_info_des {
+  margin-top: 46.875rpx;
+  width: 100%;
+  text-align: left;
+}
+.vip_info_des text {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 17.578rpx;
+}
+.KT_vip {
+  width: 522.656rpx;
+  height: 82.031rpx;
+  background: url(http://116.62.245.5/wallet-static/index/123.png);
+  background-size: 100% 100%;
+  margin: 0 auto;
+  line-height: 82.031rpx;
+}

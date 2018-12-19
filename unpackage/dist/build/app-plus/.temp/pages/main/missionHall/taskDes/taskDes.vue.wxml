@@ -1,0 +1,27 @@
+<template name="69f29bf2">
+  <view class="_view data-v-c1e2dd00 taskDes">
+    <view class="_view data-v-c1e2dd00 task_font">
+      <view class="_view data-v-c1e2dd00 title">
+        <text class="_text data-v-c1e2dd00">普通VIP任务(阿胶)</text>
+      </view>
+      <view class="_view data-v-c1e2dd00 des">
+        <text class="_text data-v-c1e2dd00">请将以下文案及图片发布到您的朋友圈</text>
+      </view>
+      <view class="_view data-v-c1e2dd00 info">
+        <textarea value="{{titleInfo}}" bindinput="handleProxy" data-eventid="{{'IbV-0'}}" data-comkey="{{$k}}" class="_textarea data-v-c1e2dd00" />
+      </view>
+    </view>
+    <button type="primary" class="_button data-v-c1e2dd00 tag-read" data-clipboard-text="{{titleInfo}}" bindtap="handleProxy" data-eventid="{{'aEL-1'}}" data-comkey="{{$k}}">复制文案</button>
+    <view class="_view data-v-c1e2dd00 task_font">
+      <view class="_view data-v-c1e2dd00 title">
+        <text class="_text data-v-c1e2dd00">图片信息</text>
+      </view>
+      <view class="_view data-v-c1e2dd00 des">
+        <text class="_text data-v-c1e2dd00">点击图片可保存图片到手机</text>
+      </view>
+      <view class="_view data-v-c1e2dd00 info">
+        <image src="../../../../static/center/logo@2x.png" mode="widthFix" bindlongtap="handleProxy" data-eventid="{{'pqx-2'}}" data-comkey="{{$k}}" class="_image data-v-c1e2dd00"></image>
+      </view>
+    </view>
+  </view>
+</template>

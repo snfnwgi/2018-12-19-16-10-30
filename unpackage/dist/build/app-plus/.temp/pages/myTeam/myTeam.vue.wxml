@@ -1,0 +1,14 @@
+<template name="65f3632e">
+  <view class="_view data-v-b114a4ac body">
+    <view class="_view data-v-b114a4ac myTeam_list" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'gJt-0-'+index}}" data-comkey="{{$k}}" wx:for="{{10}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-b114a4ac left">
+        <text class="_text data-v-b114a4ac iconfont"></text>
+        <text class="_text data-v-b114a4ac myTeam_list_font">{{index}}级会员</text>
+      </view>
+      <view class="_view data-v-b114a4ac right">
+        <text class="_text data-v-b114a4ac">{{index}}人</text>
+        <image src="../../static/center/more.png" class="_image data-v-b114a4ac"></image>
+      </view>
+    </view>
+  </view>
+</template>

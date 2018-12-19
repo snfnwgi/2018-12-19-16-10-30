@@ -1,0 +1,1 @@
+<import src="/pages/wallet/tuiguangMX/tuiguangMX.vue.wxml" /><template is="1fa20282" data="{{ ...$root['0'], $root }}"/>

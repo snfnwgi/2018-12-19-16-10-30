@@ -1,0 +1,44 @@
+<template name="071e5163">
+  <view class="_view data-v-3859cb31 content body">
+    <image src="http://116.62.245.5/wallet-static/login/login_qt.png" mode="widthFix" class="_image data-v-3859cb31 register_logo"></image>
+    <view class="_view data-v-3859cb31 register_input">
+      <view class="_view data-v-3859cb31 register_input_body">
+        <text class="_text data-v-3859cb31">
+          <text class="_text data-v-3859cb31 iconfont"></text>
+        </text>
+        <input style="color: rgba(233, 58, 38, 1);" type="number" class="_input data-v-3859cb31 inputStyle" value="{{userPhone}}" bindinput="handleProxy" placeholder="请输入手机号码" data-eventid="{{'dFm-0'}}" data-comkey="{{$k}}" />
+      </view>
+    </view>
+    <view class="_view data-v-3859cb31 register_input">
+      <view class="_view data-v-3859cb31 register_input_body">
+        <text class="_text data-v-3859cb31">
+          <text class="_text data-v-3859cb31 iconfont"></text>
+        </text>
+        <input style="color: rgba(233, 58, 38, 1);" type="password" class="_input data-v-3859cb31 inputStyle" value="{{userPassword}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'fm6-1'}}" data-comkey="{{$k}}" />
+      </view>
+    </view>
+    <view class="_view data-v-3859cb31 register_input">
+      <view class="_view data-v-3859cb31 register_input_body">
+        <text class="_text data-v-3859cb31">
+          <text class="_text data-v-3859cb31 iconfont"></text>
+        </text>
+        <input style="color: rgba(233, 58, 38, 1);" bindblur="handleProxy" type="password" class="_input data-v-3859cb31 inputStyle" value="{{userPasswordConfirm}}" bindinput="handleProxy" placeholder="请确认密码" data-eventid="{{'NwM-2'}}" data-comkey="{{$k}}"
+        />
+      </view>
+    </view>
+    <view class="_view data-v-3859cb31 register_input">
+      <view class="_view data-v-3859cb31 register_input_body register_input_bodys">
+        <text class="_text data-v-3859cb31">
+          <text class="_text data-v-3859cb31 iconfont"></text>
+        </text>
+        <input style="color: rgba(233, 58, 38, 1);" type="number" class="_input data-v-3859cb31 inputStyle" value="{{code}}" bindinput="handleProxy" placeholder="请输入短信验证码" data-eventid="{{'FyJ-3'}}" data-comkey="{{$k}}" />
+        <text class="_text data-v-3859cb31 shuxian">|</text>
+        <text class="_text data-v-3859cb31 smsInfo" bindtap="handleProxy" wx:if="{{show}}" data-eventid="{{'zmb-4'}}" data-comkey="{{$k}}">获取验证码</text>
+        <text class="_text data-v-3859cb31 smsInfo" wx:else>重新获取{{codes}}s</text>
+      </view>
+    </view>
+    <view class="_view data-v-3859cb31 register_input" style="background: #E93A26;text-align: center;">
+      <button type="warn" class="_button data-v-3859cb31 register" bindtap="handleProxy" data-eventid="{{'GJs-5'}}" data-comkey="{{$k}}">确   定</button>
+    </view>
+  </view>
+</template>

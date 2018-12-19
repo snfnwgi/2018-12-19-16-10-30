@@ -1,0 +1,5 @@
+@import "../../../common/vendor.wxss";
+
+image {
+  width: 100vw;
+}

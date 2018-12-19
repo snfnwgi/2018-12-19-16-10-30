@@ -1,0 +1,83 @@
+@import "../../common/vendor.wxss";
+
+.body {
+  background: rgb(239,239,239);
+  width: 100vw;
+  height: 100vh;
+}
+.body .myTeam_list .iconfont {
+  font-weight: 400;
+  font-size: 63.281rpx;
+}
+.body .myTeam_list {
+  width: 100vw;
+  height: 132.421rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.27);
+}
+.body .myTeam_list .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.body .myTeam_list .left .teamName {
+  font-size: 30.468rpx;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: rgba(0,0,0,1);
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 7.031rpx;
+}
+.body .myTeam_list .left .teamLeav {
+  font-size: 26.953rpx;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: rgba(255,255,255,1);
+  background: rgb(245,198,7);
+  padding: 9.375rpx 23.437rpx;
+  display: block;
+  border-radius: 10%;
+}
+.body .myTeam_list .myTeam_list_font {
+  font-size: 28.125rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: rgba(0,0,0,1);
+}
+.body .myTeam_list .right {
+  margin-right: 51.562rpx;
+  text-align: left;
+}
+.body .myTeam_list .right .iconfont,
+.body .myTeam_list .right .right_time {
+  display: block;
+  text-align: right;
+  margin: 0;
+}
+.body .myTeam_list .right .iconfont {
+  font-size: 38.671rpx;
+  line-height: 38.671rpx;
+  margin: 14.062rpx 0;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: rgba(204,204,204,1);
+}
+.body .myTeam_list .right .right_time {
+  font-size: 23.437rpx;
+  font-family: Adobe Heiti Std R;
+  font-weight: normal;
+  color: rgba(204,204,204,1);
+}

@@ -1,0 +1,95 @@
+@import "../../common/vendor.wxss";
+
+.personInformation_list .info.data-v-1b8d0815,
+.personInformation_lists .left .info.data-v-1b8d0815 {
+  width: 205.078rpx;
+  margin-left: 29.296rpx;
+}
+.personInformation_list .info text.data-v-1b8d0815,
+.personInformation_lists .left .info text.data-v-1b8d0815 {
+  font-size: 28.125rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: #222423;
+  line-height: 92.578rpx;
+}
+.personInformation_list .info_Input ._input.data-v-1b8d0815,
+.personInformation_lists .info_Input ._input.data-v-1b8d0815 {
+  font-size: 28.125rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: #222423;
+  margin: auto;
+}
+.infos .tips.data-v-1b8d0815 {
+  color: #fc0404;
+  margin-left: 29.296rpx;
+}
+.gerenSubmit.data-v-1b8d0815 {
+  width: 670.312rpx;
+  height: 85.546rpx;
+  background: -webkit-linear-gradient(left, #e71c30, #eb6117);
+  background: linear-gradient(90deg, #e71c30, #eb6117);
+  border-radius: 11.718rpx;
+  text-align: center;
+  line-height: 85.546rpx;
+  color: #fff;
+  margin: 153.515rpx auto 0 auto;
+}
+.personInformation_lists.data-v-1b8d0815 {
+  width: 100vw;
+  height: 92.578rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.personInformation_lists .left.data-v-1b8d0815 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.personInformation_lists .right.data-v-1b8d0815 {
+  position: relative;
+  right: 49.218rpx;
+}
+.personInformation_lists .rights.data-v-1b8d0815 {
+  font-size: 28.125rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  border-left: 1px solid #222423;
+  padding-left: 28.125rpx;
+  color: #222423;
+  position: relative;
+  right: 49.218rpx;
+}
+.personInformation_lists .right image.data-v-1b8d0815 {
+  width: 14.062rpx;
+}
+.personInformation_lists .left text.data-v-1b8d0815 {
+  font-size: 28.125rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  color: #222423;
+  line-height: 92.578rpx;
+  text-align: left;
+}
+.personInformation_lists .right text.data-v-1b8d0815 {
+  display: block;
+  width: 58.593rpx;
+  right: 11.718rpx;
+  top: -15rpx;
+  font-size: 28.125rpx;
+  font-family: SimSun;
+  font-weight: 400;
+  border-left: 1px solid rgba(34,36,35,0.1);
+  padding-left: 23.437rpx;
+}

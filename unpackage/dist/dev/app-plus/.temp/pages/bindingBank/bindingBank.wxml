@@ -1,0 +1,1 @@
+<import src="/pages/bindingBank/bindingBank.vue.wxml" /><template is="7f4dd04d" data="{{ ...$root['0'], $root }}"/>

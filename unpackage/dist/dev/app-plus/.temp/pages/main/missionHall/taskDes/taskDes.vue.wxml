@@ -1,0 +1,27 @@
+<template name="14acb44d">
+  <view class="_view data-v-ab5d67ce taskDes">
+    <view class="_view data-v-ab5d67ce task_font">
+      <view class="_view data-v-ab5d67ce title">
+        <text class="_text data-v-ab5d67ce">普通VIP任务(阿胶)</text>
+      </view>
+      <view class="_view data-v-ab5d67ce des">
+        <text class="_text data-v-ab5d67ce">请将以下文案及图片发布到您的朋友圈</text>
+      </view>
+      <view class="_view data-v-ab5d67ce info">
+        <textarea value="{{titleInfo}}" bindinput="handleProxy" data-eventid="{{'OhU-0'}}" data-comkey="{{$k}}" class="_textarea data-v-ab5d67ce" />
+      </view>
+    </view>
+    <button type="primary" class="_button data-v-ab5d67ce tag-read" data-clipboard-text="{{titleInfo}}" bindtap="handleProxy" data-eventid="{{'CDC-1'}}" data-comkey="{{$k}}">复制文案</button>
+    <view class="_view data-v-ab5d67ce task_font">
+      <view class="_view data-v-ab5d67ce title">
+        <text class="_text data-v-ab5d67ce">图片信息</text>
+      </view>
+      <view class="_view data-v-ab5d67ce des">
+        <text class="_text data-v-ab5d67ce">点击图片可保存图片到手机</text>
+      </view>
+      <view class="_view data-v-ab5d67ce info">
+        <image src="../../../../static/center/logo@2x.png" mode="widthFix" bindlongtap="handleProxy" data-eventid="{{'HhT-2'}}" data-comkey="{{$k}}" class="_image data-v-ab5d67ce"></image>
+      </view>
+    </view>
+  </view>
+</template>

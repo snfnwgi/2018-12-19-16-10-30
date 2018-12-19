@@ -1,0 +1,59 @@
+<template name="32982469">
+  <view style="position: relative; height: 100vh;" class="_view data-v-0d0783aa">
+    <view class="_view data-v-0d0783aa wallet_title">
+      <view class="_view data-v-0d0783aa wallet_fonts">
+        <text class="_text data-v-0d0783aa">昨日收益(元)</text>
+        <text class="_text data-v-0d0783aa wallet_money">200.00</text>
+        <text class="_text data-v-0d0783aa">余额 61060.09元</text>
+      </view>
+      <view class="_view data-v-0d0783aa wallet_title_bottom">
+        <view class="_view data-v-0d0783aa item">
+          <text class="_text data-v-0d0783aa title">累计收益(元)</text>
+          <text class="_text data-v-0d0783aa">560.09</text>
+        </view>
+        <view class="_view data-v-0d0783aa item">
+          <text class="_text data-v-0d0783aa title">佣金收益(元)</text>
+          <text class="_text data-v-0d0783aa">500.00</text>
+        </view>
+        <view class="_view data-v-0d0783aa item">
+          <text class="_text data-v-0d0783aa title">推荐收益(元)</text>
+          <text class="_text data-v-0d0783aa">0.00</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0d0783aa wallet_body">
+      <view class="_view data-v-0d0783aa wallet_body_items" bindtap="handleProxy" data-eventid="{{'5rm-0'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/wallet/1.png" mode="widthFix" class="_image data-v-0d0783aa"></image>
+        <text class="_text data-v-0d0783aa">充值查询</text>
+      </view>
+      <view class="_view data-v-0d0783aa wallet_body_items" bindtap="handleProxy" data-eventid="{{'1PZ-1'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/wallet/2.png" mode="widthFix" class="_image data-v-0d0783aa"></image>
+        <text class="_text data-v-0d0783aa">收益明细</text>
+      </view>
+      <view class="_view data-v-0d0783aa wallet_body_items" bindtap="handleProxy" data-eventid="{{'DkZ-2'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/wallet/3.png" mode="widthFix" class="_image data-v-0d0783aa"></image>
+        <text class="_text data-v-0d0783aa">佣金明细</text>
+      </view>
+      <view class="_view data-v-0d0783aa wallet_body_items" bindtap="handleProxy" data-eventid="{{'GkL-3'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/wallet/4.png" mode="widthFix" class="_image data-v-0d0783aa"></image>
+        <text class="_text data-v-0d0783aa">提现记录</text>
+      </view>
+      <view class="_view data-v-0d0783aa wallet_body_items">
+        <image src="http://116.62.245.5/wallet-static/wallet/5.png" mode="widthFix" class="_image data-v-0d0783aa"></image>
+        <text class="_text data-v-0d0783aa">收益预估</text>
+      </view>
+      <view class="_view data-v-0d0783aa wallet_body_items" bindtap="handleProxy" data-eventid="{{'WKe-4'}}" data-comkey="{{$k}}">
+        <image src="http://116.62.245.5/wallet-static/wallet/6.png" mode="widthFix" class="_image data-v-0d0783aa"></image>
+        <text class="_text data-v-0d0783aa">推广明细</text>
+      </view>
+      <view class="_view data-v-0d0783aa wallet_body_items">
+        <image src="http://116.62.245.5/wallet-static/wallet/7.png" mode="widthFix" class="_image data-v-0d0783aa"></image>
+        <text class="_text data-v-0d0783aa">我的资料</text>
+      </view>
+    </view>
+    <view style="position: absolute;bottom: 0;" class="_view data-v-0d0783aa bottom_btn">
+      <button type="default" style="color: #108EEF;" bindtap="handleProxy" data-eventid="{{'11M-5'}}" data-comkey="{{$k}}" class="_button data-v-0d0783aa">提现</button>
+      <button type="primary" bindtap="handleProxy" data-eventid="{{'sJs-6'}}" data-comkey="{{$k}}" class="_button data-v-0d0783aa">转入</button>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,1 @@
+<import src="/pages/main/missionHall/missionHall.vue.wxml" /><template is="52eedf18" data="{{ ...$root['0'], $root }}"/>

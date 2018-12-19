@@ -1,0 +1,116 @@
+<template name="072b57e9">
+  <view class="_view data-v-d72a4fac body">
+    <view class="_view data-v-d72a4fac center_logo">
+      <view class="_view data-v-d72a4fac logo">
+        <image src="http://116.62.245.5/wallet-static/center/logo@2x.png" mode="widthFix" class="_image data-v-d72a4fac"></image>
+        <text class="_text data-v-d72a4fac">测试用户</text>
+      </view>
+    </view>
+    <view class="_view data-v-d72a4fac center_money">
+      <view class="_view data-v-d72a4fac box">
+        <view class="_view data-v-d72a4fac top">
+          <text class="_text data-v-d72a4fac">100000.00</text>
+        </view>
+        <view class="_view data-v-d72a4fac next">
+          <text class="_text data-v-d72a4fac">总收入</text>
+        </view>
+      </view>
+      <view class="_view data-v-d72a4fac box">
+        <view class="_view data-v-d72a4fac top">
+          <text class="_text data-v-d72a4fac">800.00</text>
+        </view>
+        <view class="_view data-v-d72a4fac next">
+          <text class="_text data-v-d72a4fac">今日收入</text>
+        </view>
+      </view>
+      <view class="_view data-v-d72a4fac box">
+        <view class="_view data-v-d72a4fac top">
+          <text class="_text data-v-d72a4fac">50000.00</text>
+        </view>
+        <view class="_view data-v-d72a4fac next">
+          <text class="_text data-v-d72a4fac">已提现</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-d72a4fac center_list">
+      <view class="_view data-v-d72a4fac center_list_item" bindtap="handleProxy" data-eventid="{{'d4E-0'}}" data-comkey="{{$k}}">
+        <view style="display: flex;" class="_view data-v-d72a4fac">
+          <view class="_view data-v-d72a4fac listIco">
+            <image src="http://116.62.245.5/wallet-static/center/geren.png" style="width: 100%;" mode="widthFix" class="_image data-v-d72a4fac"></image>
+          </view>
+          <view class="_view data-v-d72a4fac listFont">
+            <text class="_text data-v-d72a4fac">个人资料</text>
+          </view>
+        </view>
+        <view class="_view data-v-d72a4fac listIconfont">
+          <image src="http://116.62.245.5/wallet-static/center/more.png" mode="widthFix" class="_image data-v-d72a4fac"></image>
+        </view>
+      </view>
+      <view class="_view data-v-d72a4fac center_list_item" bindtap="handleProxy" data-eventid="{{'tTf-1'}}" data-comkey="{{$k}}">
+        <view style="display: flex;" class="_view data-v-d72a4fac">
+          <view class="_view data-v-d72a4fac listIco">
+            <image src="http://116.62.245.5/wallet-static/center/yhk.png" style="width: 100%;" mode="widthFix" class="_image data-v-d72a4fac"></image>
+          </view>
+          <view class="_view data-v-d72a4fac listFont">
+            <text class="_text data-v-d72a4fac">绑定银行卡</text>
+          </view>
+        </view>
+        <view class="_view data-v-d72a4fac listIconfont">
+          <image src="http://116.62.245.5/wallet-static/center/more.png" mode="widthFix" class="_image data-v-d72a4fac"></image>
+        </view>
+      </view>
+      <view class="_view data-v-d72a4fac center_list_item" bindtap="handleProxy" data-eventid="{{'3Hd-2'}}" data-comkey="{{$k}}">
+        <view style="display: flex;" class="_view data-v-d72a4fac">
+          <view class="_view data-v-d72a4fac listIco">
+            <image src="http://116.62.245.5/wallet-static/center/qb.png" style="width: 100%;" mode="widthFix" class="_image data-v-d72a4fac"></image>
+          </view>
+          <view class="_view data-v-d72a4fac listFont">
+            <text class="_text data-v-d72a4fac">钱包</text>
+          </view>
+        </view>
+        <view class="_view data-v-d72a4fac listIconfont">
+          <image src="http://116.62.245.5/wallet-static/center/more.png" mode="widthFix" class="_image data-v-d72a4fac"></image>
+        </view>
+      </view>
+      <view class="_view data-v-d72a4fac center_list_item">
+        <view style="display: flex;" class="_view data-v-d72a4fac">
+          <view class="_view data-v-d72a4fac listIco">
+            <image src="http://116.62.245.5/wallet-static/center/cw.png" style="width: 100%;" mode="widthFix" class="_image data-v-d72a4fac"></image>
+          </view>
+          <view class="_view data-v-d72a4fac listFont">
+            <text class="_text data-v-d72a4fac">财务管理</text>
+          </view>
+        </view>
+        <view class="_view data-v-d72a4fac listIconfont">
+          <image src="http://116.62.245.5/wallet-static/center/more.png" mode="widthFix" class="_image data-v-d72a4fac"></image>
+        </view>
+      </view>
+      <view class="_view data-v-d72a4fac center_list_item center_margin">
+        <view style="display: flex;" class="_view data-v-d72a4fac">
+          <view class="_view data-v-d72a4fac listIco">
+            <image src="http://116.62.245.5/wallet-static/center/cw.png" style="width: 100%;" mode="widthFix" class="_image data-v-d72a4fac"></image>
+          </view>
+          <view class="_view data-v-d72a4fac listFont">
+            <text class="_text data-v-d72a4fac">检查更新</text>
+          </view>
+        </view>
+        <view class="_view data-v-d72a4fac listIconfont">
+          <image src="http://116.62.245.5/wallet-static/center/more.png" mode="widthFix" class="_image data-v-d72a4fac"></image>
+        </view>
+      </view>
+      <view class="_view data-v-d72a4fac center_list_item" bindtap="handleProxy" data-eventid="{{'YWz-3'}}" data-comkey="{{$k}}">
+        <view style="display: flex;" class="_view data-v-d72a4fac">
+          <view class="_view data-v-d72a4fac listIco">
+            <image src="http://116.62.245.5/wallet-static/center/tuichu.png" style="width: 100%;" mode="widthFix" class="_image data-v-d72a4fac"></image>
+          </view>
+          <view class="_view data-v-d72a4fac listFont">
+            <text class="_text data-v-d72a4fac">退出APP</text>
+          </view>
+        </view>
+        <view class="_view data-v-d72a4fac listIconfont">
+          <image src="http://116.62.245.5/wallet-static/center/more.png" mode="widthFix" class="_image data-v-d72a4fac"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

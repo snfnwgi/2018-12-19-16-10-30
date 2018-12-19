@@ -1,0 +1,16 @@
+<template name="1fa20282">
+  <view class="_view data-v-ca9774f2">
+    <view class="_view data-v-ca9774f2 chongzhi_body">
+      <view class="_view data-v-ca9774f2 chongzhi_items">
+        <view class="_view data-v-ca9774f2 chongzhi_left">
+          <text class="_text data-v-ca9774f2 title mg_bom">收益</text>
+          <text class="_text data-v-ca9774f2">余额:192.00</text>
+        </view>
+        <view class="_view data-v-ca9774f2 chongzhi_right ">
+          <text class="_text data-v-ca9774f2 title mg_boms">2018-11-21</text>
+          <text class="_text data-v-ca9774f2">+8.00</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

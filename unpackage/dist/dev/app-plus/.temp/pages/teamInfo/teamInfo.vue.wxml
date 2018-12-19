@@ -1,0 +1,23 @@
+<template name="38f9efe3">
+  <view class="_view data-v-309d491e body">
+    <view class="_view data-v-309d491e myTeam_list" wx:key="index" key="{{index}}" wx:for="{{10}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-309d491e left">
+        <text class="_text data-v-309d491e iconfont"></text>
+        <view class="_view data-v-309d491e">
+          <view class="_view data-v-309d491e teamName">
+            <text class="_text data-v-309d491e">朱卫明</text>
+          </view>
+          <view class="_view data-v-309d491e teamLeav">
+            <text class="_text data-v-309d491e">普通用户</text>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-309d491e right" bindtouchend="handleProxy" data-eventid="{{'ENP-0-'+index}}" data-comkey="{{$k}}">
+        <text class="_text data-v-309d491e iconfont"></text>
+        <view class="_view data-v-309d491e right_time">
+          <text class="_text data-v-309d491e">2018年12月4日17:26:33</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

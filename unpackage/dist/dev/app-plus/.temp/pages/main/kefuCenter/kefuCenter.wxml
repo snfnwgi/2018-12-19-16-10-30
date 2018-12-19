@@ -1,0 +1,1 @@
+<import src="/pages/main/kefuCenter/kefuCenter.vue.wxml" /><template is="09e80522" data="{{ ...$root['0'], $root }}"/>

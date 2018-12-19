@@ -1,0 +1,1 @@
+<import src="/pages/wallet/transfer/transfer.vue.wxml" /><template is="52db3008" data="{{ ...$root['0'], $root }}"/>
